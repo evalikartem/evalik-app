@@ -19,18 +19,17 @@ intro:
   description: >2
      lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis s lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis s
 main:
-  heading: Great coffee with no compromises
+  heading: Great suppliment with no compromises
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We hold our product to the highest standards from manufacturing to your
+    door. That’s why we’re meticulous and transparent about each step of our
+    journey. 
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: placeholder
+    image: img/pl_holder.jpeg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: placeholder
+    image: img/pl_holder.jpeg
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
@@ -41,12 +40,10 @@ testimonials:
   - author: Philipp Trommler
     quote: Kaldi is the place to go if you want the best quality coffee. I love
       their stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+full_image: img/logo-bl-gr.svg
 pricing:
-  heading: " lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-    odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis s"
-  description: " lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-    nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-    quis s"
+  heading: " lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+  description: " lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Integctetur adipiscingctetur adipiscing elit. Integctetur adipiscing elit. "
 type: products
 ---
