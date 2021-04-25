@@ -21,8 +21,15 @@ body {
  }
 
 p {
+  font-family: var(--font-din);
   margin-bottom: var(--spacing-medium);
   max-width: 32rem;
+}
+
+h1,
+h2 {
+  color: var(--primary);
+  font-family: var(--font-family);
 }
 
 strong {
@@ -37,6 +44,10 @@ sup {
   font-size: .6rem;
   font-weight: 700;
   vertical-align: super;
+}
+
+.din {
+  font-family: var(--font-din);
 }
 
 /* Measure is limited to ~66 characters */

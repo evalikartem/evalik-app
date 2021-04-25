@@ -3,6 +3,7 @@
 	/* Headings */
 	& h1, & h2, & h3, & h4, & h5, & h6 {
 		font-weight: var(--bold-font-weight);
+		font-family: var(--font-family);
 		line-height: 1.25;
     margin-bottom: var(--spacing-small);
   }
@@ -27,6 +28,9 @@
     font-size: .875rem;
   }
 
+  & p {
+		font-family: var(--font-din);
+  }
 	/* Images */
 	& img {
 		display: block;

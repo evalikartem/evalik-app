@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle ) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "text-and-list" (dict "heading" .Params.blurb.heading "imageUrl" .Params.blurb.image "text" .Params.blurb.text "buttonText" "SHOP NOW" "buttonLink" "https://www.amazon.com/dp/B08Q7DWLP4?ref=myi_title_dp&fbclid=IwAR10-Y8WJSqZfSeUOPWJClpPzw9jadxTffQEUOhwxlkDKErkuALPnnveTY8") }}
 
-{{ partial "2-up" .Params }}
+{{ partial "2-up" (dict "imageUrl" .Params.cards.image)}}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "image" .Params.values.image "heading" .Params.values.heading "text" .Params.values.text "buttonText" "SHOP NOW" "buttonLink" "https://www.amazon.com/dp/B08Q7DWLP4?ref=myi_title_dp&fbclid=IwAR10-Y8WJSqZfSeUOPWJClpPzw9jadxTffQEUOhwxlkDKErkuALPnnveTY8") }}
 
 {{ end }}
