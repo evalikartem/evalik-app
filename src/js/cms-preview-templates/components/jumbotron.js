@@ -10,7 +10,7 @@ export default class Jumbotron extends React.Component {
       }}>
         <div className="mw8 center ph3">
           <div className="db mb3">
-            <div class="mw8 relative bg-fix-primary mb3">
+            <div class="mw8 mb2 relative bg-fix-primary mb3">
               <img scr={logo} alt="leaf logo"class="db w4 center br0" />
             </div>
             <div className="mw8 relative bg-fix-primary mb3">
@@ -19,7 +19,7 @@ export default class Jumbotron extends React.Component {
               </h1>
             </div>
             <div className="mw8 relative bg-fix-primary">
-              {subtitle && <p className="b f4 di lh-title mb3 white mw6">{ subtitle }</p>}
+              {subtitle && <p className="b f5 di lh-title mb3 white mw6">{ subtitle }</p>}
             </div>
           </div>
         </div>

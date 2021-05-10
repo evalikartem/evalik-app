@@ -1,8 +1,34 @@
 <div class="ph3 pb4 bg-center cover pt4" style="background-image: url('{{.imageUrl}}')">
-  <div class="ph3 mw7 center flex-m justify-between">
-    <div class="ph3 mw7">one</div>
-    <div class="ph3 mw7">two</div>
-    <div class="ph3 mw7">three</div>
-    <div class="ph3 mw7">four</div>
+  <div class="ph3 mw8 center flex-m justify-between">
+    <div class="ph3 mw7 card shadow">
+      <ul class="font-16 list mt3">
+        <li class="mb2"><img src="/img/checkmark.svg" class="check mr2" />{{.cardOneTextOne}}</li>
+        <li class="mb2"><img src="/img/checkmark.svg" class="check mr2" />{{.cardOneTextTwo}}</li>
+        <li class="mb2"><img src="/img/checkmark.svg" class="check mr2" />{{.cardOneTextThree}}</li>
+        <li class="mb2"><img src="/img/checkmark.svg" class="check mr2" />{{.cardOneTextFour}}</li>
+      </ul>
+    </div>
+    <div class="ph3 mw7 card shadow font-16">
+      <span class="mt4">
+        <img src="{{ .cardTwoImage }}" />
+      </span>
+    </div>
+    <div class="ph3 mw7 card shadow font-16">
+      <span class="mt5">
+        <img src="{{ .cardThreeImage }}" />
+      </span>
+    </div>
+    <div class="ph3 mw7 card shadow font-14">
+      <div class="tl">
+        <p> 
+        <h6>{{.cardFourTextLineOne}}</h6> </br>
+        {{.cardFourTextLineTwo}} </br>
+        {{.cardFourTextLineThree}} </br>
+        {{.cardFourTextLineFour}} </br>
+        {{.cardFourTextLineFive}} </br>
+        {{.cardFourTextLineSix}} </br>
+        </p>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,29 +1,30 @@
-<div class="bg-grey-2 pv4 cover" style="background-image: url('{{.imageUrl}}')">
+<div class="bg-grey-2 pv4 cover pd-sm" style="background-image: url('{{.imageUrl}}')">
 	<div class="ph3 mw8 center">
 		<div class="w-80-l center tc">
-			<img class="w-10" src="/img/logo-bl-gr.svg">
-			<div>Health Solution Grounded in Science</div>
+			<img class="w-10 w-30-sm" src="/img/logo-bl-gr.svg">
+			<div class="din"><h6>Health Solution Grounded in Science</h6></div>
 		</div>
+		
 		<div class="flex-l mhn2-l">
 			<div class="w-80-l ph2-l">
-				<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
+				<h2 class="f2 b lh-title mb2 mt3">{{.heading}}</h2>
 
-				<p class="din">{{.text}}</p>
+				<p class="din font-20">{{.text}}</p>
+				<div class="text-button fl-end-sm">
+					<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+				</div>
+
 			</div>
 
-			<div class="w-60-l ph2-l ml6 pt2">
-				<ul>
-					<li>Immune system strength</li>
-					<li>Inflammation control</li>
-					<li>Maximizing brain function</li>
-					<li>Energy boosts</li>
-					<li>Iron absorption</li>
+			<div class="w-60-l ph2-l ml6 pt2 mt5 tc-sm">
+				<ul class="list-health font-18 din tl">
+					<li class="mb2"><img src="/img/checkmark.svg" class="mr2 check" />Immune system strength</li>
+					<li class="mb2"><img src="/img/checkmark.svg" class="mr2 check" />Inflammation control</li>
+					<li class="mb2"><img src="/img/checkmark.svg" class="mr2 check" />Maximizing brain function</li>
+					<li class="mb2"><img src="/img/checkmark.svg" class="mr2 check" />Energy boosts</li>
+					<li class="mb2"><img src="/img/checkmark.svg" class="mr2 check" />Iron absorption</li>
 				</ul>
 			</div>
-		</div>
-
-		<div class="">
-			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
 		</div>
 
 	</div>

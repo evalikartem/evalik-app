@@ -26,6 +26,33 @@ p {
   max-width: 32rem;
 }
 
+.nav-font {
+  font-family: var(--font-din);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
 h1,
 h2 {
   color: var(--primary);

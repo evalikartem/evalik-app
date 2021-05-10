@@ -4,7 +4,18 @@
 
 {{ partial "text-and-list" (dict "heading" .Params.blurb.heading "imageUrl" .Params.blurb.image "text" .Params.blurb.text "buttonText" "SHOP NOW" "buttonLink" "https://www.amazon.com/dp/B08Q7DWLP4?ref=myi_title_dp&fbclid=IwAR10-Y8WJSqZfSeUOPWJClpPzw9jadxTffQEUOhwxlkDKErkuALPnnveTY8") }}
 
-{{ partial "2-up" (dict "imageUrl" .Params.cards.image)}}
+{{ partial "2-up" (dict "imageUrl" .Params.cards.image "cardOneTextOne" .Params.cards.cardOneTextOne 
+"cardOneTextTwo" .Params.cards.cardOneTextTwo "cardOneTextThree" .Params.cards.cardOneTextThree
+"cardOneTextFour" .Params.cards.cardOneTextFour "cardOneTextFive" .Params.cards.cardOneTextFive
+"cardTwoImage" .Params.cards.cardTwoImage "cardThreeImage" .Params.cards.cardThreeImage
+"cardFourTextLineOne" .Params.cards.cardFourTextLineOne
+"cardFourTextLineTwo" .Params.cards.cardFourTextLineTwo
+"cardFourTextLineThree" .Params.cards.cardFourTextLineThree
+"cardFourTextLineFour" .Params.cards.cardFourTextLineFour
+"cardFourTextLineFive" .Params.cards.cardFourTextLineFive
+"cardFourTextLineSix" .Params.cards.cardFourTextLineSix
+"cardFourTextLineSeven" .Params.cards.cardFourTextLineSeven
+)}} 
 
 {{ partial "text-and-image" (dict "image" .Params.values.image "heading" .Params.values.heading "text" .Params.values.text "buttonText" "SHOP NOW" "buttonLink" "https://www.amazon.com/dp/B08Q7DWLP4?ref=myi_title_dp&fbclid=IwAR10-Y8WJSqZfSeUOPWJClpPzw9jadxTffQEUOhwxlkDKErkuALPnnveTY8") }}
 
