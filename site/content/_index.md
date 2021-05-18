@@ -1,5 +1,5 @@
 ---
-title: Premium fulvic mineral concentrate
+title: Premium fulvic mineral concentrate!
 subtitle: Our product sourced and produced in the USA without using any chemicals.
 image: /img/bg_black.jpg
 logo: /img/fda_red.jpg
